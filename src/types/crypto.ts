@@ -51,7 +51,7 @@ export interface TrendingItem {
 
 export interface TrendingResponse {
   coins: TrendingItem[];
-  exchanges: any[];
+  exchanges: unknown[];
 }
 
 export interface MarketDataParams {

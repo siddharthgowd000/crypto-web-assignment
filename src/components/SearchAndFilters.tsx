@@ -111,7 +111,7 @@ export function SearchAndFilters({
       <div className="mt-3 flex flex-wrap gap-2">
         {searchTerm && (
           <span className="inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium bg-blue-100 dark:bg-blue-900 text-blue-800 dark:text-blue-200">
-            Search: "{searchTerm}"
+            Search: &quot;{searchTerm}&quot;
             <button
               onClick={() => onSearchChange("")}
               className="ml-1.5 inline-flex items-center justify-center w-4 h-4 rounded-full text-blue-400 hover:bg-blue-200 dark:hover:bg-blue-800 focus:outline-none focus:ring-2 focus:ring-blue-500"

@@ -113,7 +113,7 @@ export function useMarketData() {
 
       return 0;
     });
-  }, [filteredCoins, sortConfig]);
+  }, [filteredCoins, sortConfig, debouncedSearchTerm]);
 
   const updateSort = useCallback((field: SortConfig["field"]) => {
     setSortConfig((prev) => ({
@@ -132,7 +132,7 @@ export function useMarketData() {
 
   useEffect(() => {
     fetchMarketData(1, false);
-  }, []);
+  }, [fetchMarketData]);
 
   return {
     coins: sortedCoins,
