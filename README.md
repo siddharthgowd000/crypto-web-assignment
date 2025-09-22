@@ -5,7 +5,7 @@ A modern cryptocurrency dashboard built with Next.js 15, TypeScript, and Tailwin
 used AI tool for readme file generation.
 
 ## 🚀 Live Demo
-
+[View Live Demo](https://crypto-web-assignment-nine.vercel.app/)
 
 ## ✨ Features
 
